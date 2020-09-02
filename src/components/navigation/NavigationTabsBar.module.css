@@ -1,0 +1,29 @@
+.container {
+    height: 55px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+}
+
+.tabs {
+    /*background: #52c41a;*/
+    flex: 1;
+    height: 32px;
+    overflow-x: auto;
+    white-space: nowrap;
+    /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+    -ms-overflow-style: none;
+    /*火狐下隐藏滚动条*/
+    overflow: -moz-scrollbars-none;
+}
+
+.tabs::-webkit-scrollbar {
+    display: none
+}
+
+
+.tabsOther {
+}
+
+

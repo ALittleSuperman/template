@@ -1,0 +1,176 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.top {
+    flex: 1.2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.top .topBox {
+    display: flex;
+}
+
+.topBox img {
+    width: 416px;
+    height: 73px;
+}
+
+
+.topOther {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: #2A2A2A;
+    font-size: 14px;
+}
+
+.topOther div {
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.topOther img {
+    width: 16px;
+    height: 16px;
+}
+
+.topOther span {
+    margin-left: 5px;
+}
+
+
+.middle {
+    background-image: url("../../../../assets/img/login/bck-img.png");
+    background-color: #2f54eb;
+    background-position: center;
+    flex: 6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 200px;
+}
+
+.box {
+    width: 400px;
+    height: 450px;
+    /*height: 536px;*/
+    background: #fff;
+}
+
+.boxTabs {
+    margin-top: 30px;
+    height: 60px;
+    color: #3572FE;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgba(239, 239, 239, 1);
+}
+
+.boxTabs .line {
+    width: 24px;
+    height: 3px;
+    background: rgba(53, 114, 254, 1);
+    border-radius: 3px;
+    position: absolute;
+    left: 190px;
+    bottom: -1px;
+}
+
+.boxTabs div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bottom {
+    flex: 1.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2A2A2A;
+}
+
+.bottom div:first-child {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.bottom div:last-child {
+    font-size: 14px;
+}
+
+/*表单*/
+.input {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(239, 239, 239, 1);
+}
+
+.input img {
+    margin: 0 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.input input {
+    width: 100%;
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input input:focus {
+    border: none;
+}
+
+/*button*/
+.button {
+    height: 56px;
+    background-size: 100%;
+    background-image: url("../../../../assets/img/login/btn-登录@2x.png");
+    background-position: center;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+/*other*/
+.other {
+    padding: 0 24px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: rgba(155, 155, 155, 1);
+}
+
+.other span {
+    cursor: pointer;
+}
+
+.other span:first-child {
+    color: #2f54eb;
+    font-weight: bold;
+}
+
+
+
+
+
