@@ -24,13 +24,8 @@ export default () => {
     const {state, dispatch} = useStore("userInfo");
 
     function loginHandler() {
-        loginService({
-            phone: account,
-            password: password
-        }).then((data) => {
-            dispatch("set", data.response)
+        dispatch("set", [])
             Navigation.replace("/")
-        })
     }
 
     return (
